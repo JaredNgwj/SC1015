@@ -1,0 +1,15 @@
+This is the workflow 
+
+1. We would have a total of 5 Notebooks 
+
+a) First = Cleaning of Data 
+
+b) Second = EDA 
+
+c) Third = Machine Learning Model 1
+
+d) Fourth = Machine Learning Model 2
+
+e) Fifth = Insights 
+
+Since we are breaking up into 5 books, inorder for the data to be carried over, we would convert the data at the end of the file into a Pickle File
