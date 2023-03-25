@@ -1,4 +1,4 @@
-# SC1015
+# Some Explanation for some codes above 
 Regarding Analysis of the Heirachy Algorithm
 
 1. In the code above , i used an analysis called RFM - which is often used in marketing and buisness since they are common and good metrics for customer prediction. 
