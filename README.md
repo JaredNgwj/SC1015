@@ -96,12 +96,12 @@ We found that  `Cost of a monthly gym membership(City)`,`Number of take out plac
 
 From our EDA and Machine Learning, we are able to gain insights for our Data Science Question:
 
-From our MultiVariate Analysis, we found that Cost of a bottle of water(City) , Obesity levels(Country), Life expectancy(years) (Country), Pollution(Index score) (City) to be good predictors, which would allow countries to predict Happiness Levels of their countries.
+From our MultiVariate Analysis, we found that `Cost of a bottle of water(City)` , `Obesity levels(Country)`, `Life expectancy(years) (Country)`, `Pollution(Index score) (City)` to be good predictors, which would allow countries to predict Happiness Levels of their countries.
 Furthermore, after exploring ways to reduce the overfitting, we found that using Lasso Regression allows us to obtain a higher Explained Variance at the cost of slightly higher Mean Square Error. This means that we were able to capture more noise in the Data but perform slighly worse in the predicting the actual values.
 
 This means that it was better than our original model, as it was able to reduce the overfitting by a larger margin and keeping the loss in predicting low!
 
-From our Second Data Science Question, for Countries that are looking to improve their Happiness Levels and Life expectancy(years) (Country), they should look to reduce `Pollution Index` and `Annual avg. hours worked` as they are important features in determining if a City is healthy and happy.
+From our Second Data Science Question, for Countries that are looking to improve their `Happiness Levels` and `Life expectancy(years) (Country)`, they should look to reduce `Pollution Index` and `Annual avg. hours worked` as they are important features in determining if a City is healthy and happy.
 
 From the last Data Science Question, we see that Cities that are clustered based on `Monthly Gym Membership` ,`Number of take-out places (City`) and `Life expectancy (years) (Country)` have higher Happiness Levels, which are possible avenues for Countries to look at if they want to improve their Countries Happiness Levels.
 Conclusion of Clustering:
