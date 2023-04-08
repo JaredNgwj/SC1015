@@ -101,12 +101,12 @@ Furthermore, after exploring ways to reduce the overfitting, we found that using
 
 This means that it was better than our original model, as it was able to reduce the overfitting by a larger margin and keeping the loss in predicting low!
 
-From our Second Data Science Question, for Countries that are looking to improve their Happiness Levels and Life expectancy(years) (Country), they should look to reduce Pollution Index and Annual avg. hours worked as they are important features in determining if a City is healthy and happy.
+From our Second Data Science Question, for Countries that are looking to improve their Happiness Levels and Life expectancy(years) (Country), they should look to reduce `Pollution Index` and `Annual avg. hours worked` as they are important features in determining if a City is healthy and happy.
 
-From the last Data Science Question, we see that Cities that are clustered based on Monthly Gym Membership ,Number of take-out places (City) and Life expectancy (years) (Country) have higher Happiness Levels, which are possible avenues for Countries to look at if they want to improve their Countries Happiness Levels.
+From the last Data Science Question, we see that Cities that are clustered based on `Monthly Gym Membership` ,`Number of take-out places (City`) and `Life expectancy (years) (Country)` have higher Happiness Levels, which are possible avenues for Countries to look at if they want to improve their Countries Happiness Levels.
 Conclusion of Clustering:
 
-Cost of a monthly gym membership(City),Number of take out places(City),Obesity levels(Country) and Life expectancy(years) (Country) are the most important factors in determining if the structure in the Data.
+Cost of a `monthly gym membership(City)` ,`Number of take out places(City)` ,`Obesity levels(Country)` and `Life expectancy(years) (Country)` are the most important factors in determining if the structure in the Data.
 
 It differs from the variables of MultiVariate analysis as it assumes linearity between the features and the target variable. Whereas for Clustering with the use of Random Forest to determine Variable Importance, it can capture complex, non-linear relationships between features and the target variable, which is the primary goal of the Second and Third Data Science Question to capture the overall relationship.
 
