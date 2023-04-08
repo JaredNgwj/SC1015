@@ -5,7 +5,7 @@ Lab: A121 \
 Group : 2
 
 Members: 
-1. Justin Tan //Add Gitmail 
+1. Justin Tan https://github.com/tshjustin
 2. 
 3. 
 
