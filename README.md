@@ -60,7 +60,7 @@ We used the visual aids of the Box Plots, Histogram, Vionlin , HeatMap and Scatt
 
 ### 4. Multi-Variate Analysis
 
-Now that we have done EDA, we picked the 4 best variables using `KBest` to obtain strong predictors for our Multi-Variate Analysis. 
+Now that we have done EDA, we picked the 4 best variables using `KBest` to obtain strong predictors for our Multi-Variate Analysis for our First Data Science Question. 
 
 We then obtained a Explained Variance of `0.8755` for the model on the Train Data Set and `0.5808` on the Test Data. This was a case of overfitting, and so we explored 2 ways to reduce the overfitting.
 
@@ -73,6 +73,44 @@ Secondly, we also used Lasso Model to reduce overfitting. Lasso can handle multi
 
 After using Lasso, the Explained Variance on the test improved to `0.7952`.
 
+---
+
+### 5. Hierachal Clustering 
+
+For the next 2 Data Science Question ,we then performed clustering. We chose  **Hierachal Clustering** as 
+
+1. It gave us a powerful visualisation aid in terms of looking for similarites between Clusters of cities, which is the main goal of our question.
+2. Cities that are anomalies would be easily seen from the dendrogram, as they are most dissimilar and result in high vertical distance. 
+
+For the Second Question, we found the optimal clusters of `4` and analysed the characteristics of each cluster to find the greatest contributers to a Happy and Healthy City. 
+
+We found that `Pollution Levels` and `Annual avg. Working Hours` contributes to te happiest and healthiest Countries.
 
 
+For the third Question, we found the optimal clusters of `2` and analysed the characteristic. To generate more insights, we used a modification of the Random Forest Machine Learning Model to determine the importance of each variable. This allows us to determine the variables that structure the clusters as such. This picks out the underlying relationship between the variables. 
 
+We found that  `Cost of a monthly gym membership(City)`,`Number of take out places(City)`,`Obesity levels(Country)` and `Life expectancy(years) (Country)` are the strongest variables in determining the structure of the dataset. 
+
+---
+
+### 6. Data Driven Insights and Conclusion
+
+From our EDA and Machine Learning, we are able to gain insights for our Data Science Question:
+
+From our MultiVariate Analysis, we found that Cost of a bottle of water(City) , Obesity levels(Country), Life expectancy(years) (Country), Pollution(Index score) (City) to be good predictors, which would allow countries to predict Happiness Levels of their countries.
+Furthermore, after exploring ways to reduce the overfitting, we found that using Lasso Regression allows us to obtain a higher Explained Variance at the cost of slightly higher Mean Square Error. This means that we were able to capture more noise in the Data but perform slighly worse in the predicting the actual values.
+
+This means that it was better than our original model, as it was able to reduce the overfitting by a larger margin and keeping the loss in predicting low!
+
+From our Second Data Science Question, for Countries that are looking to improve their Happiness Levels and Life expectancy(years) (Country), they should look to reduce Pollution Index and Annual avg. hours worked as they are important features in determining if a City is healthy and happy.
+
+From the last Data Science Question, we see that Cities that are clustered based on Monthly Gym Membership ,Number of take-out places (City) and Life expectancy (years) (Country) have higher Happiness Levels, which are possible avenues for Countries to look at if they want to improve their Countries Happiness Levels.
+Conclusion of Clustering:
+
+Cost of a monthly gym membership(City),Number of take out places(City),Obesity levels(Country) and Life expectancy(years) (Country) are the most important factors in determining if the structure in the Data.
+
+It differs from the variables of MultiVariate analysis as it assumes linearity between the features and the target variable. Whereas for Clustering with the use of Random Forest to determine Variable Importance, it can capture complex, non-linear relationships between features and the target variable, which is the primary goal of the Second and Third Data Science Question to capture the overall relationship.
+
+---
+
+### 7. References 
