@@ -26,7 +26,8 @@ Below is a short description of the overall project. The detailed analysis is fo
 4. Multi-Variate Analysis
 5. Hierachal Clustering
 6. Data Driven Insights and Conclusion
-7. References
+7. Learning Insights 
+8. References
 
 ---
 ### 1. Problem Formulation
@@ -112,4 +113,8 @@ It differs from the variables of MultiVariate analysis as it assumes linearity b
 
 ---
 
-### 7. References 
+### 7. Learning Insights 
+
+---
+
+### 8. References 
