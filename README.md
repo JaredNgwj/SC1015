@@ -5,7 +5,7 @@ Group : 2
 
 Members: 
 1. Justin Tan https://github.com/tshjustin
-2. 
+2. Jared Ng https://github.com/JaredNgwj
 3. 
 
 --- 
