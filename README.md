@@ -123,3 +123,5 @@ We learnt how to use `Silhouette score and Hierarchical Clustering model` to hel
 ---
 
 ### 8. References 
+
+1. https://www.yourdatateacher.com/2021/10/11/feature-selection-with-random-forest/
