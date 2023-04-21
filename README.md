@@ -55,7 +55,7 @@ We cleaned the data and prepared them for our Exploratory Data Analysis & Machin
 
 We then explore each variable to identify any pattern they may have with our Problem Forumulation or with each other. We also kept an eye out for anomalies that may affect our Machine Learning. 
 
-We used the visual aids of the Box Plots, Histogram, Vionlin , HeatMap and Scatterplots to understand the relatinoship the variables have with each other. 
+We used the visual aids of the Box Plots, Histogram, Violin, HeatMap and Scatterplots to understand the relatinoship the variables have with each other. 
 
 --- 
 
