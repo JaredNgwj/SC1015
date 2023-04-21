@@ -4,9 +4,9 @@ Lab: A121 \
 Group : 2
 
 Members: 
-1. Justin Tan https://github.com/tshjustin
-2. Jared Ng https://github.com/JaredNgwj
-3. 
+1. Justin Tan https://github.com/tshjustin - Clustering
+2. Jared Ng https://github.com/JaredNgwj - Linear Regression
+3. Dharinisri https://github.com/DhariniSa - EDA
 
 --- 
 
