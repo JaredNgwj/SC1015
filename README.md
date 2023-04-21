@@ -85,7 +85,7 @@ For the next 2 Data Science Question ,we then performed clustering. We chose  **
 
 For the Second Question, we found the optimal clusters of `4` and analysed the characteristics of each cluster to find the greatest contributers to a Happy and Healthy City. 
 
-We found that `Pollution Levels` and `Annual avg. Working Hours` contributes to te happiest and healthiest Countries.
+We found that `Pollution Levels` and `Annual avg. Working Hours` contributes to the happiest and healthiest Countries.
 
 
 For the third Question, we found the optimal clusters of `2` and analysed the characteristic. To generate more insights, we used a modification of the Random Forest Machine Learning Model to determine the importance of each variable. This allows us to determine the variables that structure the clusters as such. This picks out the underlying relationship between the variables. 
