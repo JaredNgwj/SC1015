@@ -116,7 +116,7 @@ It differs from the variables of MultiVariate analysis as it assumes linearity b
 
 ### 7. Learning Insights 
 
-During this project, we learnt about what overfitting was and how it could impact our model performance. We also learnt about the methods, such as `KFolds and Lasso`, and how to utilize these methods to overcome our overfitting problem.
+During this project, we learnt about what overfitting was and how it could impact our model performance. We also learnt about methods, such as `KFolds and Lasso`, and how to utilize these methods to overcome our overfitting problem.
 
 We learnt how to use `Silhouette score and Hierarchical Clustering model` to help us answer our data science questions and provide better analysis with the use of these methods.
 
