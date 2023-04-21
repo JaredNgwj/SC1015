@@ -127,3 +127,5 @@ We learnt how to use `Silhouette score and Hierarchical Clustering model` to hel
 1. https://www.yourdatateacher.com/2021/10/11/feature-selection-with-random-forest/
 
 2. https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+
+3. https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/
