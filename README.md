@@ -74,6 +74,13 @@ Secondly, we also used Lasso Model to reduce overfitting. Lasso can handle multi
 
 After using Lasso, the Explained Variance on the test improved to `0.7952`.
 
+|                        Model                                                         |Test Mean Square Error | Test Explained Variance |
+| :------------------------------------------------------------------------------- | :------------------------: | :-------------------------------: | 
+| `Multi Variate LinearRegression`                                                 |           | 3.123           | 5.643                    |     
+| `Multi Variate LinearRegression with KFolds`  | 7.584                  | 3.123                           | 5.651                    | 
+| `Lasso Regression`            | 7.744                  | 3.198                           | 5.751                    | 
+
+
 ---
 
 ### 5. Hierachal Clustering 
@@ -131,3 +138,5 @@ We learnt how to use `Silhouette score and Hierarchical Clustering model` to hel
 3. https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/
 
 4. https://www.analyticssteps.com/blogs/what-hierarchical-clustering-machine-learning
+
+
