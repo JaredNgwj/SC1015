@@ -2,7 +2,7 @@
 Lab: A121 \
 Group : 2
 
-
+Video Link: https://youtu.be/yeOaMLBkJNM
 --- 
 
 ### Description : 
