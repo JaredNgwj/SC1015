@@ -35,12 +35,12 @@ Data Set : https://www.kaggle.com/datasets/prasertk/healthy-lifestyle-cities-rep
 
 **Data Set** : 
 
-**Our Questions** : 
+**Our Problem Formulation** : 
 1. How can we predict the Happiness Level of a City given several of it's Health metrics? 
 2. What determines if a City is both Happy and Healthy?
 3. Can we identify underlying patterns or relationships among cities based on their health-related metrics?
 
-**Rationale of Questions** : We believe that Health and Happiness are the most important factors in everyone. They are the factors in determining the quality of life that each indivdual experiences. Hence, we want to explore how are we able to achieve a Happy and Healthy Country and bring the best quality of life to everyone.
+**Motivation** : We believe that Health and Happiness are the most important factors in everyone. They are the factors in determining the quality of life that each indivdual experiences. Hence, we want to explore how are we able to achieve a Happy and Healthy Country and bring the best quality of life to everyone.
 
 --- 
 
@@ -63,14 +63,17 @@ We used the visual aids of the Box Plots, Histogram, Violin, HeatMap and Scatter
 
 Now that we have done EDA, we picked the 4 best variables using `KBest` to obtain strong predictors for our Multi-Variate Analysis for our First Data Science Question. 
 
-We then obtained a Explained Variance of `0.8755` for the model on the Train Data Set and `0.5808` on the Test Data. This was a case of overfitting, and so we explored 2 ways to reduce the overfitting.
+We then performed Mutli-Variate Linear Regression to build a model that is able to predict `Happiness Levels` based on `Life Expectancy`, `Cost of Bottled Water`, `Pollution Index` & `Obesity Levels`.
+
+To test the accuracy of the model, we then find the Mean Square Error and Explained Variance of the model on the Train and Test Data Split. 
+We found the Explained Variance of `0.8755` for the model on the Train Data Set and `0.5808` on the Test Data. This was a case of overfitting, and so we explored 2 ways to reduce the overfitting.
 
 
 Firstly, we used `KFolds` methods to divide the dataset into k equally sized "folds" or subsets, and then train and evaluate the model k times. Given a small dataset sample size, using a traditional train-test split could lead to insufficient data for training, which might affect the model's performance. K-fold cross-validation helps to maximize the use of the available data by iteratively using different parts of the data for training and validation, ensuring that every sample is used for both training and validation at some point.
 
-After folding, we found that the Explained Variance on the test was improved to `0.7700`. 
+We found the optimal number of Folds by calculating the MSE and R^2 for each Fold Value and found the optimal Folds to be 4. After folding, we found that the Explained Variance on the test was improved to `0.7700`. 
 
-Secondly, we also used Lasso Model to reduce overfitting. Lasso can handle multicollinearity among the predictor variables effectively. In our case where some features are highly correlated, Lasso can select one of them while shrinking the others' coefficients to zero, reducing the model complexity and improves the interpretability of the model.
+However, overfitting may also be due to Multicollinearity between the predictor variables. To tackle this, we used Lasso Regreesion that will shrink coefficients in order to reduce multicollinearlity and lower overfitting. 
 
 After using Lasso, the Explained Variance on the test improved to `0.7952`.
 
