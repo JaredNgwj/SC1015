@@ -1,5 +1,4 @@
 # SC1015: Data Science Mini Project - Determining Happiness and Healthiness of Countries
-School of Computer Science and Engineering \
 Lab: A121 \
 Group : 2
 
