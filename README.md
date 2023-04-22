@@ -129,12 +129,13 @@ From the last Data Science Question, we see that Cities that are clustered based
 
 ---
 
-Contributers: 
+### Contributers: 
 
 1. Justin Tan https://github.com/tshjustin - Hierarchal Clustering
 2. Jared Ng https://github.com/JaredNgwj - Linear Regression & Data Cleaning 
 3. Dharinisri https://github.com/DhariniSa - Exploratory Data Analysis 
-4. 
+
+
 ---
 ### 8. References 
 
