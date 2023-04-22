@@ -76,9 +76,9 @@ After using Lasso, the Explained Variance on the test improved to `0.7952`.
 
 |                        Model                                                         |Test Mean Square Error | Test Explained Variance |
 | :------------------------------------------------------------------------------- | :------------------------: | :-------------------------------: | 
-| `Multi Variate LinearRegression`                                                 |           | 3.123           | 5.643                    |     
-| `Multi Variate LinearRegression with KFolds`  | 7.584                  | 3.123                           | 5.651                    | 
-| `Lasso Regression`            | 7.744                  | 3.198                           | 5.751                    | 
+| `Multi Variate LinearRegression`                                                 |           0.33550          |     0.58083                       |     
+| `Multi Variate LinearRegression with KFolds`                                     |           0.21030          |     0.77004                       | 
+| `Lasso Regression`                                                               |           0.27560          |     0.79520                       | 
 
 
 ---
